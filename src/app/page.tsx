@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="max-h-[78.0625rem] px-4 align  pt-[5.5rem] text-xl bg-black text-center flex flex-col justify-between items-center gap-12">
-      <div className="text-center flex flex-col justify-between items-center ">
+      <div className="text-center flex flex-col justify-between items-center gap-4">
         <div className="text-center h-[16rem]">
           <p className="text-[#909090] leading-8">Pro.Beyond.</p>
           <h2 className="text-white font-thin text-7xl">
