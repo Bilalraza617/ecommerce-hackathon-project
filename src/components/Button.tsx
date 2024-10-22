@@ -11,7 +11,7 @@ const Button: React.FC<ButtonPropsTypes> = ({
   return (
     <div>
       <button
-        className={`bg-${bg} text-${text_color}  h-14 py-4  border-[1px] rounded-md border-${border_color}-100`}
+        className={`bg-${bg} text-${text_color}  h-14  border-[1px] flex justify-center items-center rounded-md border-${border_color}-100`}
         style={{ width: `${width}rem` }}
       >
         {text}
