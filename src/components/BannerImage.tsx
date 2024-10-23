@@ -7,7 +7,7 @@ const data: BannerImagePropes[] = [
   {
     title: "Apple  AirPods Max",
     des: "Computational audio. Listen, it's powerful",
-    bg: "white",
+    bg: "#EDEDED",
     image: Images.air_pords,
     width: 192,
     hieght: 200,
@@ -31,7 +31,7 @@ const data: BannerImagePropes[] = [
   {
     title: "Macbook Air",
     des: "The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.",
-    bg: "#EDEDED-100",
+    bg: "#EDEDED",
     image: Images.hero_banner,
     width: 222.97,
     hieght: 152.95,
@@ -44,7 +44,7 @@ const BannerImage = () => {
       {data.map((item, index) => (
         <div
           key={index}
-          className={`bg-[${item.bg}]  flex flex-col justify-center items-center h-[23.5rem] max-w-[23.4375rem]`}
+          className={`bg-[${item.bg}]  flex flex-col justify-center items-center h-[23.5rem] w-full`}
         >
           <Image
             src={item.image}
