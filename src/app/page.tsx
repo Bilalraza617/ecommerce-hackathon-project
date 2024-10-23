@@ -34,10 +34,10 @@ export default function Home() {
       <div>
         <BannerImage />
       </div>
-      <div>
+      <div className="bg-[#EDEDED] text-center">
         <Button
           text="Shop Now"
-          width={11.9375}
+          width={28}
           bg="black"
           border_color="white"
           text_color="white"
