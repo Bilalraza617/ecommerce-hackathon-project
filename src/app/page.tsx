@@ -1,3 +1,4 @@
+import BannerImage from "@/components/BannerImage";
 import Button from "@/components/Button";
 import { Images } from "@/constants";
 import Image from "next/image";
@@ -30,7 +31,18 @@ export default function Home() {
         </div>
       </div>
       {/* ------------------------- */}
-      <div className="min-w-[23.4375rem] h-[106.0275rem]">hey</div>
+      <div>
+        <BannerImage />
+      </div>
+      <div>
+        <Button
+          text="Shop Now"
+          width={11.9375}
+          bg="black"
+          border_color="white"
+          text_color="white"
+        />
+      </div>
     </div>
   );
 }
